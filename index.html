@@ -1,0 +1,83 @@
+<! Greenland-style doctype html>
+<html lang="uk">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Головна — Консультації Коледжу</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+                <ul>
+                    <li><a href="index.html" aria-current="page">Головна</a></li>
+                    <li><a href="topic.html">Викладачі</a></li>
+                    <li><a href="contacts.html">Розклад</a></li>
+                </ul>
+            </nav>
+            <button type="button" class="btn-login">Увійти / Кабінет</button>
+        </div>
+    </header>
+
+    <main id="main">
+        <section class="hero">
+            <h1>Консультації коледжу</h1>
+            <p>Швидко знаходь викладача, переглядай вільні слоти та бронюй час онлайн.</p>
+            <a href="topic.html" class="btn-primary">Записатися на консультацію</a>
+        </section>
+
+        <section class="search-block">
+            <h2>Пошук консультації</h2>
+            <form class="search-form">
+                <div class="field">
+                    <label for="prof-search">Викладач</label>
+                    <input type="text" id="prof-search" placeholder="Прізвище...">
+                </div>
+                <div class="field">
+                    <label for="subject-search">Предмет</label>
+                    <input type="text" id="subject-search" placeholder="Назва дисципліни...">
+                </div>
+                <button type="submit" class="btn-secondary">Показати доступний час</button>
+            </form>
+        </section>
+
+        <section class="teachers">
+            <h2>Найближчі консультації</h2>
+            <div class="teacher-grid">
+                <article class="card">
+                    <h3>Іванова Л.В.</h3>
+                    <p>Алгоритми</p>
+                    <p>Найближча: Пн, 10:00</p>
+                    <a href="topic.html" class="btn-outline">Переглянути розклад</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="steps">
+            <h2>Як це працює</h2>
+            <div class="steps-grid">
+                <div class="step">
+                    <h3>Обери викладача</h3>
+                    <p>Швидкий запис через зручний календар.</p>
+                </div>
+                <div class="step">
+                    <h3>Обери час</h3>
+                    <p>Автоматичні нагадування про зустріч.</p>
+                </div>
+                <div class="step">
+                    <h3>Отримай підтвердження</h3>
+                    <p>Ми надішлемо деталі на пошту.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <nav aria-label="Навігація в підвалі">
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="contacts.html">Підтримка</a></li>
+                <li><a href="#">Інформація про систему</a></li>
+            </ul>
+        </nav>
+        <p>&copy; 2026 Запис на консультації. Щасливий шлях навчання!</p>
+    </footer>
+</body>
+</html>
