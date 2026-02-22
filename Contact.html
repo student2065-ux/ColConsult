@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="uk">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Контакти - Технічна підтримка</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="#main" class="skip-link">Перейти до основного змісту</a>
+    <main id="main">
+        <section>
+            <h2>Зворотний зв'язок</h2>
+            <form method="post">
+                <div>
+                    <label for="user-name">Ім’я:</label>
+                    <input type="text" id="user-name" name="name" required>
+                </div>
+
+                <div>
+                    <label for="user-email">Ел. пошта:</label>
+                    <input type="email" id="user-email" name="email" required>
+                </div>
+
+                <div>
+                    <label for="user-tel">Телефон:</label>
+                    <input type="tel" id="user-tel" name="tel" 
+                           pattern="^\+380\d{9}$" 
+                           aria-describedby="tel-hint">
+                    <p id="tel-hint" style="font-size: 0.8em;">Формат: +380XXXXXXXXX (12 цифр)</p>
+                </div>
+
+                <div>
+                    <label for="message">Повідомлення:</label>
+                    <textarea id="message" name="message" minlength="10" required aria-describedby="msg-hint"></textarea>
+                    <p id="msg-hint" style="font-size: 0.8em;">Мінімум 10 символів.</p>
+                </div>
+
+                <button type="submit">Відправити запит</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <nav aria-label="Навігація">
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="contacts.html">Контакти</a></li>
+            </ul>
+        </nav>
+        <p>&copy; 2026 Технічна підтримка системи.</p>
+    </footer>
+</body>
+</html>
