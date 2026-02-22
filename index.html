@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="uk">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Головна - Система запису на консультації коледжу</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="#main" class="skip-link">Перейти до основного змісту</a>
+
+    <header>
+        <img src="logo.svg" alt="Логотип системи запису на консультації" width="50">
+        <h1>Онлайн-запис на консультації коледжу</h1>
+        <p>Швидко знаходь викладача та переглядай актуальний розклад.</p>
+        
+        <nav aria-label="Головна навігація">
+            <ul>
+                <li><a href="index.html" aria-current="page">Головна</a></li>
+                <li><a href="topic.html">Викладачі</a></li>
+                <li><a href="contacts.html">Контакти</a></li>
+            </ul>
+        </nav>
+        <button type="button">Увійти / Кабінет</button>
+    </header>
+
+    <main id="main">
+        <section>
+            <h2>Записатися на консультацію</h2>
+            <p>Оберіть викладача та зручний час у кілька кліків.</p>
+            <button type="submit" style="background: navy; color: white; padding: 10px 20px;">Записатися</button>
+        </section>
+
+        <section>
+            <h2>Пошук викладача</h2>
+            <form action="#">
+                <label for="teacher-search">Пошук за прізвищем:</label>
+                <input type="text" id="teacher-search" name="q">
+                <button type="submit">Показати доступний час</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <nav aria-label="Навігація в підвалі">
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="contacts.html">Контакти</a></li>
+                <li><a href="#">Політика конфіденційності</a></li>
+            </ul>
+        </nav>
+        <p>&copy; 2026 Система запису на консультації. Всі права захищені.</p>
+    </footer>
+</body>
+  </html>
